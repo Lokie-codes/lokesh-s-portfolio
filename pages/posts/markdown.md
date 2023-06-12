@@ -97,3 +97,5 @@ export default function Nextra({ Component, pageProps }) {
     and multiple paragraphs.
 
 [^2]: Footnote text.
+
+---

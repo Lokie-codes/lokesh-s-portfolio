@@ -83,3 +83,5 @@ Routing is a crucial aspect of API development in Django Rest Framework. By unde
 Remember to carefully design your URLs and map them to the appropriate views or viewsets to create a well-structured and maintainable API. With the power of DRF's routing capabilities, you can build scalable and efficient APIs that meet your application's needs.
 
 Happy routing in Django Rest Framework!
+
+---
