@@ -1,3 +1,13 @@
+---
+title: The Owk and The Owl
+date: 2024/7/27
+description: Lost in the woods, a grandfather and granddaughter must...
+tag: stories
+author: Sinduluri Lokesh
+---
+
+# The Owk and The Owl
+
 The air hung heavy with the scent of pine and damp earth. Sunlight, fractured by the dense canopy, dappled the forest floor where Elias, a wizened man with eyes like faded sapphires, stumbled along. Beside him, his granddaughter, Lily, a whirlwind of freckled energy, skipped ahead, her laughter echoing through the silent woods.
 
 They had been exploring, following a winding path that promised a breathtaking view, but the path had vanished, swallowed by the encroaching undergrowth. Now, the sun dipped towards the horizon, casting long, ominous shadows. Fear, a cold serpent, began to coil in Elias's gut.
