@@ -2,8 +2,8 @@
 title: Mastering API Viewsets in DRF - A Comprehensive Guide with Practical Examples
 date: 2022/6/23
 description: API Viewsets are a powerful feature in Django Rest Framework (DRF)
-tag: web development
-author: You
+tag: web development, python, django, APIs
+author: Sinduluri Lokesh
 ---
 
 

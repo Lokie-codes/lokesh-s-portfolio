@@ -2,8 +2,8 @@
 title: Demystifying Routing in Django Rest Framework - A Practical Guide
 date: 2022/3/18
 description: Practical aspects of routing in DRF.
-tag: web development
-author: You
+tag: web development, python, django, APIs
+author: Sinduluri Lokesh
 ---
 
 # Demystifying Routing in Django Rest Framework - A Practical Guide

@@ -1,87 +1,39 @@
 ---
-title: Naya bada katha
-date: 2022/3/18
-description: Practical aspects of routing in DRF.
+title: The Guy
+date: 2024/7/27
+description: A desperate struggle for survival...
 tag: stories
-author: You
+author: Sinduluri Lokesh
 ---
 
-# Naya bada katha
+# The Guy
 
-### Introduction:
-Routing plays a fundamental role in building robust and scalable APIs using Django Rest Framework (DRF). It is the process of mapping URLs to view functions or viewsets in your Django application. In this article, we will dive into the practical aspects of routing in DRF and explore how it simplifies API development.
+On a sunny day, a man with a rugged face and weak physique stood on a raft, staring at the deep blue sea beneath a distant sky.
 
-### Basic Routing Concepts:
-Routing in DRF revolves around two primary components: URLs and views. URLs define the API endpoints, while views handle the logic for processing incoming requests. Let's start by understanding the different types of routing patterns in DRF.
+His stomach growled like a newborn, and he picked up a stake he had earlier broken from the raft. Peering into the water, he saw a dolphin and its baby approaching.
 
-### Function-based Views:
-Function-based views are the simplest form of routing in DRF. To define a URL route for a function-based view, you need to map the URL pattern to the associated view function in your Django urls.py file. For example:
-```
-from django.urls import path
-from .views import my_view
+With no time to think, he pulled himself out of the water, faced with two options: a giant dolphin he couldn't manage, or the baby dolphin passing along. Taking a deep breath, he snatched the baby dolphin from the water and threw it onto the raft. Holding it against the raft with one hand and the stake in the other, he raised the stake high, aiming at the little dolphin as it whistled in fear.
 
-urlpatterns = [
-    path('my-url/', my_view),
-]
+He **couldn't** do it.
 
-```
+He released the baby dolphin back into the water, and both dolphins swam away. The man grew drowsy and fell overboard. Day turned to night, and the chill winds wouldn't let him sleep.
 
-Here, the path() function maps the URL pattern `my-url/` to the `my_view` function.
+Night passed, the sun rose, and his hunger grew. This cycle repeated for many days. One day, a sharp pain in his gut felt like a black hole inside him. Unable to bear it any longer, he took the stake and struck it over his hand, splitting two fingers and spilling blood over the raft and into the ocean. Removing the nails, he ate them.
 
-### Class-based Views:
-Class-based views (CBVs) offer a more powerful and flexible approach to routing in DRF. CBVs allow you to define reusable view logic in classes, providing a clear separation of concerns. To route a URL to a class-based view, you need to specify the view class in your urls.py file. For example:
-```
-from django.urls import path
-from .views import MyView
+Soon, sharks surrounded him, lured by his blood. With a weak limb, he held the stake upright and his head firm. As a shark attacked, he struck it like a thunderbolt, killing it and getting a chunk of its flesh. He defended himself from the others until they fled. As sunset approached, he lay back, biting into the shark meat, and saw dark clouds gathering.
 
-urlpatterns = [
-    path('my-url/', MyView.as_view()),
-]
+Suddenly, rain poured down. He swiftly removed his shaggy shirt, spread it over his arms, and stood erect, collecting water to suck from it. Noticing his raft speeding up, he saw a whirlpool ahead. Hurriedly, he stretched his shirt, tied himself to the raft, and held on tight as they were sucked into the whirlpool.
 
-```
+Bubbling out air, he closed his eyes.
 
-In this case, the as_view() method converts the class-based view into a callable view function.
+"Hello, can you hear me?" a woman's voice spoke.
 
-### Viewsets and Routers:
-DRF introduces the concept of viewsets and routers to streamline the routing process further. Viewsets combine common CRUD (Create, Retrieve, Update, Delete) operations into a single class. A router automatically generates the necessary URLs for these operations. Let's see how it works in practice:
-```
-from rest_framework import routers
-from .views import MyViewSet
+With blurred vision, as focused light flashed on his face, the man found himself on a chair with wires attached, making weird noises in an empty dark room.
 
-router = routers.DefaultRouter()
-router.register('my-model', MyViewSet)
+The woman repeated herself, and he murmured, "Where am I? What happened to me?"
 
-urlpatterns = [
-    path('', include(router.urls)),
-]
-```
+She smiled and said, "Nothing to worry about. You were tested in our simulator for endurance, and you've passed. You are in our headquarters, Mr. Harihar. Welcome to the Secretive Intelligence Bureau (SIB)."
 
-Here, we define a DefaultRouter and register the MyViewSet with the router. The router automatically generates URLs for all the CRUD operations on the my-model endpoint.
-
-### Nested Routers:
-DRF also supports nested routing, which allows you to create hierarchical relationships between resources. For example, you can define a nested route to handle operations on related objects. Let's take a look:
-
-```
-from rest_framework import routers
-from .views import ParentViewSet, ChildViewSet
-
-router = routers.DefaultRouter()
-parent_router = routers.NestedSimpleRouter(router, r'parent', lookup='parent')
-parent_router.register(r'child', ChildViewSet, basename='parent-child')
-
-urlpatterns = [
-    path('', include(router.urls)),
-    path('', include(parent_router.urls)),
-]
-```
-
-Here, we create a nested router using NestedSimpleRouter. It allows us to handle URLs like ` /parent/{parent_id}/child/. `
-
-### Conclusion:
-Routing is a crucial aspect of API development in Django Rest Framework. By understanding the different routing patterns and concepts in DRF, you can efficiently design your API endpoints and streamline the development process. Whether you're working with function-based views, class-based views, or viewsets, DRF provides a flexible and practical approach to handling routing in your Django application.
-
-Remember to carefully design your URLs and map them to the appropriate views or viewsets to create a well-structured and maintainable API. With the power of DRF's routing capabilities, you can build scalable and efficient APIs that meet your application's needs.
-
-Happy routing in Django Rest Framework!
+**The beginning is yet to begin...**
 
 ---
