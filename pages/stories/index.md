@@ -1,7 +1,7 @@
 ---
-type: stories
+type: posts
 title: Stories
-date: 2024-07-27
+date: 2021-07-27
 ---
 
 # Stories
