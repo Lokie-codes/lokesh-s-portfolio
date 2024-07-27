@@ -1,6 +1,6 @@
 ---
 title: The Owk and The Owl
-date: 2024/7/27
+date: 2024/7/29
 description: Lost in the woods, a grandfather and granddaughter must...
 tag: stories
 author: Sinduluri Lokesh
